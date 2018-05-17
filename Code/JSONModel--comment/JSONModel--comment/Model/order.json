@@ -1,0 +1,30 @@
+{
+	"orderId": 104,
+	"totalPrice": "366.15",
+	"products": [
+		{  
+			"id": 123,
+            "productDetails": {
+                "name": "Product #1",
+			    "price": {
+                    "rmb": 81.83
+                },
+                "productDate": "Thu Mar 15 12:20:09 +0800 2018",
+                "isSale": true
+            },
+            "count": 1
+		},
+		{
+			"id": 137,
+            "productDetails": {
+                "name": "Product #2",
+			    "price": {
+                    "rmb": 142.16
+                },
+                "productDate": "Thu Mar 15 12:20:09 +0800 2018",
+                "isSale": false
+            },
+            "count": 2
+		}
+	]
+}

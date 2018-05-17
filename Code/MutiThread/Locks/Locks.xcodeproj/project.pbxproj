@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C249A43206905F20015B5B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A42206905F20015B5B5 /* main.m */; };
+		9C249A4E2069F1B40015B5B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A4D2069F1B40015B5B5 /* main.m */; };
+		9C249A542069F1DE0015B5B5 /* NSThread+SequenceNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A532069F1DE0015B5B5 /* NSThread+SequenceNumber.m */; };
+		9C249A5C2069F2A90015B5B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A5B2069F2A90015B5B5 /* main.m */; };
+		9C249A622069F2DC0015B5B5 /* NSThread+SequenceNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A612069F2DC0015B5B5 /* NSThread+SequenceNumber.m */; };
+		9C249A6A2069F3120015B5B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A692069F3120015B5B5 /* main.m */; };
+		9C249A752069F34C0015B5B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A742069F34C0015B5B5 /* main.m */; };
+		9C249A802069F37B0015B5B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A7F2069F37B0015B5B5 /* main.m */; };
+		9C249A862069F3AB0015B5B5 /* NSThread+SequenceNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A852069F3AB0015B5B5 /* NSThread+SequenceNumber.m */; };
+		9C249A892069F3B30015B5B5 /* NSThread+SequenceNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A872069F3B30015B5B5 /* NSThread+SequenceNumber.m */; };
+		9C249A8C2069F3BD0015B5B5 /* NSThread+SequenceNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A8B2069F3BD0015B5B5 /* NSThread+SequenceNumber.m */; };
+		9C249A942069F42A0015B5B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A932069F42A0015B5B5 /* main.m */; };
+		9C249A9A2069F4520015B5B5 /* NSThread+SequenceNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C249A992069F4520015B5B5 /* NSThread+SequenceNumber.m */; };
+		9C4265D32069423D004509B6 /* NSThread+SequenceNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4265D1206940E3004509B6 /* NSThread+SequenceNumber.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C249A3E206905F20015B5B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9C249A492069F1B40015B5B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9C249A572069F2A90015B5B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9C249A652069F3120015B5B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9C249A702069F34C0015B5B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9C249A7B2069F37B0015B5B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9C249A8F2069F42A0015B5B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C249A40206905F20015B5B5 /* SynchronizedBiting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SynchronizedBiting; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C249A42206905F20015B5B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C249A4B2069F1B40015B5B5 /* NSConditionLockBiting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSConditionLockBiting; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C249A4D2069F1B40015B5B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C249A522069F1DE0015B5B5 /* NSThread+SequenceNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+SequenceNumber.h"; sourceTree = "<group>"; };
+		9C249A532069F1DE0015B5B5 /* NSThread+SequenceNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+SequenceNumber.m"; sourceTree = "<group>"; };
+		9C249A592069F2A90015B5B5 /* NSLockBiting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSLockBiting; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C249A5B2069F2A90015B5B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C249A602069F2DC0015B5B5 /* NSThread+SequenceNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+SequenceNumber.h"; sourceTree = "<group>"; };
+		9C249A612069F2DC0015B5B5 /* NSThread+SequenceNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+SequenceNumber.m"; sourceTree = "<group>"; };
+		9C249A672069F3120015B5B5 /* NSConditionBiting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSConditionBiting; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C249A692069F3120015B5B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C249A722069F34C0015B5B5 /* phread_mutex_Biting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = phread_mutex_Biting; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C249A742069F34C0015B5B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C249A7D2069F37B0015B5B5 /* dispatch_semaphore_Biting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dispatch_semaphore_Biting; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C249A7F2069F37B0015B5B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C249A842069F3AB0015B5B5 /* NSThread+SequenceNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+SequenceNumber.h"; sourceTree = "<group>"; };
+		9C249A852069F3AB0015B5B5 /* NSThread+SequenceNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+SequenceNumber.m"; sourceTree = "<group>"; };
+		9C249A872069F3B30015B5B5 /* NSThread+SequenceNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+SequenceNumber.m"; sourceTree = "<group>"; };
+		9C249A882069F3B30015B5B5 /* NSThread+SequenceNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+SequenceNumber.h"; sourceTree = "<group>"; };
+		9C249A8A2069F3BD0015B5B5 /* NSThread+SequenceNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+SequenceNumber.h"; sourceTree = "<group>"; };
+		9C249A8B2069F3BD0015B5B5 /* NSThread+SequenceNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+SequenceNumber.m"; sourceTree = "<group>"; };
+		9C249A912069F42A0015B5B5 /* NSRecursiveLockBiting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSRecursiveLockBiting; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C249A932069F42A0015B5B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C249A982069F4520015B5B5 /* NSThread+SequenceNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+SequenceNumber.h"; sourceTree = "<group>"; };
+		9C249A992069F4520015B5B5 /* NSThread+SequenceNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+SequenceNumber.m"; sourceTree = "<group>"; };
+		9C4265D0206940E3004509B6 /* NSThread+SequenceNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSThread+SequenceNumber.h"; sourceTree = "<group>"; };
+		9C4265D1206940E3004509B6 /* NSThread+SequenceNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSThread+SequenceNumber.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C249A3D206905F20015B5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C249A482069F1B40015B5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C249A562069F2A90015B5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C249A642069F3120015B5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C249A6F2069F34C0015B5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C249A7A2069F37B0015B5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C249A8E2069F42A0015B5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C249A29206903190015B5B5 = {
+			isa = PBXGroup;
+			children = (
+				9C249A41206905F20015B5B5 /* SynchronizedBiting */,
+				9C249A4C2069F1B40015B5B5 /* NSConditionLockBiting */,
+				9C249A5A2069F2A90015B5B5 /* NSLockBiting */,
+				9C249A922069F42A0015B5B5 /* NSRecursiveLockBiting */,
+				9C249A682069F3120015B5B5 /* NSConditionBiting */,
+				9C249A732069F34C0015B5B5 /* phread_mutex_Biting */,
+				9C249A7E2069F37B0015B5B5 /* dispatch_semaphore_Biting */,
+				9C249A33206903190015B5B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C249A33206903190015B5B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C249A40206905F20015B5B5 /* SynchronizedBiting */,
+				9C249A4B2069F1B40015B5B5 /* NSConditionLockBiting */,
+				9C249A592069F2A90015B5B5 /* NSLockBiting */,
+				9C249A672069F3120015B5B5 /* NSConditionBiting */,
+				9C249A722069F34C0015B5B5 /* phread_mutex_Biting */,
+				9C249A7D2069F37B0015B5B5 /* dispatch_semaphore_Biting */,
+				9C249A912069F42A0015B5B5 /* NSRecursiveLockBiting */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C249A41206905F20015B5B5 /* SynchronizedBiting */ = {
+			isa = PBXGroup;
+			children = (
+				9C4265D0206940E3004509B6 /* NSThread+SequenceNumber.h */,
+				9C4265D1206940E3004509B6 /* NSThread+SequenceNumber.m */,
+				9C249A42206905F20015B5B5 /* main.m */,
+			);
+			path = SynchronizedBiting;
+			sourceTree = "<group>";
+		};
+		9C249A4C2069F1B40015B5B5 /* NSConditionLockBiting */ = {
+			isa = PBXGroup;
+			children = (
+				9C249A522069F1DE0015B5B5 /* NSThread+SequenceNumber.h */,
+				9C249A532069F1DE0015B5B5 /* NSThread+SequenceNumber.m */,
+				9C249A4D2069F1B40015B5B5 /* main.m */,
+			);
+			path = NSConditionLockBiting;
+			sourceTree = "<group>";
+		};
+		9C249A5A2069F2A90015B5B5 /* NSLockBiting */ = {
+			isa = PBXGroup;
+			children = (
+				9C249A602069F2DC0015B5B5 /* NSThread+SequenceNumber.h */,
+				9C249A612069F2DC0015B5B5 /* NSThread+SequenceNumber.m */,
+				9C249A5B2069F2A90015B5B5 /* main.m */,
+			);
+			path = NSLockBiting;
+			sourceTree = "<group>";
+		};
+		9C249A682069F3120015B5B5 /* NSConditionBiting */ = {
+			isa = PBXGroup;
+			children = (
+				9C249A842069F3AB0015B5B5 /* NSThread+SequenceNumber.h */,
+				9C249A852069F3AB0015B5B5 /* NSThread+SequenceNumber.m */,
+				9C249A692069F3120015B5B5 /* main.m */,
+			);
+			path = NSConditionBiting;
+			sourceTree = "<group>";
+		};
+		9C249A732069F34C0015B5B5 /* phread_mutex_Biting */ = {
+			isa = PBXGroup;
+			children = (
+				9C249A882069F3B30015B5B5 /* NSThread+SequenceNumber.h */,
+				9C249A872069F3B30015B5B5 /* NSThread+SequenceNumber.m */,
+				9C249A742069F34C0015B5B5 /* main.m */,
+			);
+			path = phread_mutex_Biting;
+			sourceTree = "<group>";
+		};
+		9C249A7E2069F37B0015B5B5 /* dispatch_semaphore_Biting */ = {
+			isa = PBXGroup;
+			children = (
+				9C249A8A2069F3BD0015B5B5 /* NSThread+SequenceNumber.h */,
+				9C249A8B2069F3BD0015B5B5 /* NSThread+SequenceNumber.m */,
+				9C249A7F2069F37B0015B5B5 /* main.m */,
+			);
+			path = dispatch_semaphore_Biting;
+			sourceTree = "<group>";
+		};
+		9C249A922069F42A0015B5B5 /* NSRecursiveLockBiting */ = {
+			isa = PBXGroup;
+			children = (
+				9C249A982069F4520015B5B5 /* NSThread+SequenceNumber.h */,
+				9C249A992069F4520015B5B5 /* NSThread+SequenceNumber.m */,
+				9C249A932069F42A0015B5B5 /* main.m */,
+			);
+			path = NSRecursiveLockBiting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C249A3F206905F20015B5B5 /* SynchronizedBiting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C249A44206905F20015B5B5 /* Build configuration list for PBXNativeTarget "SynchronizedBiting" */;
+			buildPhases = (
+				9C249A3C206905F20015B5B5 /* Sources */,
+				9C249A3D206905F20015B5B5 /* Frameworks */,
+				9C249A3E206905F20015B5B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SynchronizedBiting;
+			productName = SynchronizedBiting;
+			productReference = 9C249A40206905F20015B5B5 /* SynchronizedBiting */;
+			productType = "com.apple.product-type.tool";
+		};
+		9C249A4A2069F1B40015B5B5 /* NSConditionLockBiting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C249A512069F1B40015B5B5 /* Build configuration list for PBXNativeTarget "NSConditionLockBiting" */;
+			buildPhases = (
+				9C249A472069F1B40015B5B5 /* Sources */,
+				9C249A482069F1B40015B5B5 /* Frameworks */,
+				9C249A492069F1B40015B5B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSConditionLockBiting;
+			productName = NSConditionLockBiting;
+			productReference = 9C249A4B2069F1B40015B5B5 /* NSConditionLockBiting */;
+			productType = "com.apple.product-type.tool";
+		};
+		9C249A582069F2A90015B5B5 /* NSLockBiting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C249A5D2069F2A90015B5B5 /* Build configuration list for PBXNativeTarget "NSLockBiting" */;
+			buildPhases = (
+				9C249A552069F2A90015B5B5 /* Sources */,
+				9C249A562069F2A90015B5B5 /* Frameworks */,
+				9C249A572069F2A90015B5B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSLockBiting;
+			productName = NSLockBiting;
+			productReference = 9C249A592069F2A90015B5B5 /* NSLockBiting */;
+			productType = "com.apple.product-type.tool";
+		};
+		9C249A662069F3120015B5B5 /* NSConditionBiting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C249A6B2069F3120015B5B5 /* Build configuration list for PBXNativeTarget "NSConditionBiting" */;
+			buildPhases = (
+				9C249A632069F3120015B5B5 /* Sources */,
+				9C249A642069F3120015B5B5 /* Frameworks */,
+				9C249A652069F3120015B5B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSConditionBiting;
+			productName = NSConditionBiting;
+			productReference = 9C249A672069F3120015B5B5 /* NSConditionBiting */;
+			productType = "com.apple.product-type.tool";
+		};
+		9C249A712069F34C0015B5B5 /* phread_mutex_Biting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C249A762069F34C0015B5B5 /* Build configuration list for PBXNativeTarget "phread_mutex_Biting" */;
+			buildPhases = (
+				9C249A6E2069F34C0015B5B5 /* Sources */,
+				9C249A6F2069F34C0015B5B5 /* Frameworks */,
+				9C249A702069F34C0015B5B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = phread_mutex_Biting;
+			productName = phread_mutex_Biting;
+			productReference = 9C249A722069F34C0015B5B5 /* phread_mutex_Biting */;
+			productType = "com.apple.product-type.tool";
+		};
+		9C249A7C2069F37B0015B5B5 /* dispatch_semaphore_Biting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C249A812069F37B0015B5B5 /* Build configuration list for PBXNativeTarget "dispatch_semaphore_Biting" */;
+			buildPhases = (
+				9C249A792069F37B0015B5B5 /* Sources */,
+				9C249A7A2069F37B0015B5B5 /* Frameworks */,
+				9C249A7B2069F37B0015B5B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dispatch_semaphore_Biting;
+			productName = dispatch_semaphore_Biting;
+			productReference = 9C249A7D2069F37B0015B5B5 /* dispatch_semaphore_Biting */;
+			productType = "com.apple.product-type.tool";
+		};
+		9C249A902069F42A0015B5B5 /* NSRecursiveLockBiting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C249A952069F42A0015B5B5 /* Build configuration list for PBXNativeTarget "NSRecursiveLockBiting" */;
+			buildPhases = (
+				9C249A8D2069F42A0015B5B5 /* Sources */,
+				9C249A8E2069F42A0015B5B5 /* Frameworks */,
+				9C249A8F2069F42A0015B5B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSRecursiveLockBiting;
+			productName = NSRecursiveLockBiting;
+			productReference = 9C249A912069F42A0015B5B5 /* NSRecursiveLockBiting */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C249A2A206903190015B5B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Hisen;
+				TargetAttributes = {
+					9C249A3F206905F20015B5B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9C249A4A2069F1B40015B5B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9C249A582069F2A90015B5B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9C249A662069F3120015B5B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9C249A712069F34C0015B5B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9C249A7C2069F37B0015B5B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9C249A902069F42A0015B5B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9C249A2D206903190015B5B5 /* Build configuration list for PBXProject "Locks" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C249A29206903190015B5B5;
+			productRefGroup = 9C249A33206903190015B5B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C249A3F206905F20015B5B5 /* SynchronizedBiting */,
+				9C249A4A2069F1B40015B5B5 /* NSConditionLockBiting */,
+				9C249A582069F2A90015B5B5 /* NSLockBiting */,
+				9C249A662069F3120015B5B5 /* NSConditionBiting */,
+				9C249A712069F34C0015B5B5 /* phread_mutex_Biting */,
+				9C249A7C2069F37B0015B5B5 /* dispatch_semaphore_Biting */,
+				9C249A902069F42A0015B5B5 /* NSRecursiveLockBiting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C249A3C206905F20015B5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4265D32069423D004509B6 /* NSThread+SequenceNumber.m in Sources */,
+				9C249A43206905F20015B5B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C249A472069F1B40015B5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C249A542069F1DE0015B5B5 /* NSThread+SequenceNumber.m in Sources */,
+				9C249A4E2069F1B40015B5B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C249A552069F2A90015B5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C249A622069F2DC0015B5B5 /* NSThread+SequenceNumber.m in Sources */,
+				9C249A5C2069F2A90015B5B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C249A632069F3120015B5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C249A862069F3AB0015B5B5 /* NSThread+SequenceNumber.m in Sources */,
+				9C249A6A2069F3120015B5B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C249A6E2069F34C0015B5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C249A892069F3B30015B5B5 /* NSThread+SequenceNumber.m in Sources */,
+				9C249A752069F34C0015B5B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C249A792069F37B0015B5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C249A8C2069F3BD0015B5B5 /* NSThread+SequenceNumber.m in Sources */,
+				9C249A802069F37B0015B5B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C249A8D2069F42A0015B5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C249A9A2069F4520015B5B5 /* NSThread+SequenceNumber.m in Sources */,
+				9C249A942069F42A0015B5B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C249A37206903190015B5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9C249A38206903190015B5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C249A45206905F20015B5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C249A46206905F20015B5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C249A4F2069F1B40015B5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C249A502069F1B40015B5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C249A5E2069F2A90015B5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C249A5F2069F2A90015B5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C249A6C2069F3120015B5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C249A6D2069F3120015B5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C249A772069F34C0015B5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C249A782069F34C0015B5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C249A822069F37B0015B5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C249A832069F37B0015B5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C249A962069F42A0015B5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C249A972069F42A0015B5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C249A2D206903190015B5B5 /* Build configuration list for PBXProject "Locks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C249A37206903190015B5B5 /* Debug */,
+				9C249A38206903190015B5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C249A44206905F20015B5B5 /* Build configuration list for PBXNativeTarget "SynchronizedBiting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C249A45206905F20015B5B5 /* Debug */,
+				9C249A46206905F20015B5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C249A512069F1B40015B5B5 /* Build configuration list for PBXNativeTarget "NSConditionLockBiting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C249A4F2069F1B40015B5B5 /* Debug */,
+				9C249A502069F1B40015B5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C249A5D2069F2A90015B5B5 /* Build configuration list for PBXNativeTarget "NSLockBiting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C249A5E2069F2A90015B5B5 /* Debug */,
+				9C249A5F2069F2A90015B5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C249A6B2069F3120015B5B5 /* Build configuration list for PBXNativeTarget "NSConditionBiting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C249A6C2069F3120015B5B5 /* Debug */,
+				9C249A6D2069F3120015B5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C249A762069F34C0015B5B5 /* Build configuration list for PBXNativeTarget "phread_mutex_Biting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C249A772069F34C0015B5B5 /* Debug */,
+				9C249A782069F34C0015B5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C249A812069F37B0015B5B5 /* Build configuration list for PBXNativeTarget "dispatch_semaphore_Biting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C249A822069F37B0015B5B5 /* Debug */,
+				9C249A832069F37B0015B5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C249A952069F42A0015B5B5 /* Build configuration list for PBXNativeTarget "NSRecursiveLockBiting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C249A962069F42A0015B5B5 /* Debug */,
+				9C249A972069F42A0015B5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C249A2A206903190015B5B5 /* Project object */;
+}
