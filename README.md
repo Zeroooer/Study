@@ -1,6 +1,6 @@
 # 学习笔记
 
-一些学习的demo代码，以及知识点整理
+demo代码，以及知识点整理
 
 + [Objective-C内存管理](pdf/MemoryManageMent.pdf)
 + [block原理](pdf/block.pdf)
